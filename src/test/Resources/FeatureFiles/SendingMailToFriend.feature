@@ -1,4 +1,6 @@
 Feature: Sending mail to friend with product
+  As a user I should be able to choose any product and sent it to the friend via email
+
   @registeredUserMail
   Scenario: Registered user should be able to send email with product to friend
     Given registered user is on the home page and logged in

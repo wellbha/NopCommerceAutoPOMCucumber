@@ -1,4 +1,5 @@
 Feature: Registration
+  As a new user I should be able to register successfully to the website
   @registration
   Scenario: New user should be able to register successfully
     Given user is on the home page

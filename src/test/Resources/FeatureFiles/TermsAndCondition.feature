@@ -1,4 +1,6 @@
 Feature: Accepting Terms & Conditions
+  As a registered user I should be to add the product to cart but should not be able to proceed to checkout without accepting terms and conditions
+  
   @termsCondition
   Scenario: user need to accept terms and conditions before checkout
     Given registered user is on the home page and logged in

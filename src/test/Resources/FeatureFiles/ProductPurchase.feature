@@ -1,4 +1,7 @@
 Feature: buying product successfully
+
+  As a registered user I should be able to purchase any product from the website
+
   @productPurchase
   Scenario: registered user should be able to purchase any product successfully
     Given registered user is on the home page and logged in
